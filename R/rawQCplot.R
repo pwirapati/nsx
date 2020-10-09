@@ -46,4 +46,5 @@ rawQCplot <- function( data, bottom_margin=27,o=NULL )
     lines(1:n, .5 + data$hk[o,i],col="green4",lwd=2)
 
   mtext(side=1,at=1:n,text=rownames(data$endog)[o],line=3,las=2)
+  par(mfrow=c(1,1))
 }
