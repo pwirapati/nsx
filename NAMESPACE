@@ -1,0 +1,4 @@
+export(readRCCset)
+export(rawQCplot)
+export(bgsc_norm)
+export(bgsc_plot)
