@@ -12,8 +12,8 @@ plot( data$mz, data$z[,i],pch=gpch,col=gcol,cex=gcex,axes=F,frame=T,
   main=colnames(data$z)[i],
   xlab="reference counts",ylab="sample counts")
 abline(0,1,lty=2)
-axis(side=1,lab=tt,at=log2(.5+tt))
-axis(side=2,lab=tt,at=log2(.5+tt))
+axis(side=1,labels=tt,at=log2(.5+tt))
+axis(side=2,labels=tt,at=log2(.5+tt))
 curve( log2( 0.5 + data$normpar[1,i] + 2^(x + data$normpar[2,i])),xlim=range(data$mz),col="orange3",add=T,lwd=2)
 abline(h=log2(.5+data$normpar[1,i]),col="orange3",lty=2)
 }

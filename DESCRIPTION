@@ -6,6 +6,6 @@ Date: 2020-08-29
 Depends: R (>= 3.5)
 Author: Pratyaksha Wirapati
 Maintainer: Pratyaksha Wirapati <pratyaksha.wirapati@sib.swiss>
-Description: This package performs various analyses for nanoString gene expression data
-License: GPL
+Description: Various analyses for nanoString gene expression data.
+License: GPL (>=2)
 Packaged: 2020-08-28 19:16:47 UTC; pwirapat
